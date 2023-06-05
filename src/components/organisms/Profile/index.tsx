@@ -39,7 +39,7 @@ export function Profile({ onVerify, isVerified }: Props) {
             </div>
 
             <div className="mt-20 flex flex-col items-center pb-12">
-                <h1 className="text-4xl font-medium text-gray-700">Jessica Jones, <span class="font-light text-gray-500">27</span></h1>
+                <h1 className="text-4xl font-medium text-gray-700">Jessica Jones, <span className="font-light text-gray-500">27</span></h1>
 
                 <p className="mt-8 mb-2">Input your position and organisation</p>
                 <form onSubmit={handleSubmit(data => console.log(data))}>
